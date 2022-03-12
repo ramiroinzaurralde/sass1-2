@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: $background;
+  color: black;
+}
+h1 {
+  color: black;
+  font-family: arial;
+  font-size: $font-size;
+  letter-spacing: 15px;
+  text-shadow: 4px 4px 5px #cdcdcd;
+  animation: flotar 2s linear infinite alternate;
+  position: center;
+}
+
+@keyframes flotar {
+  form {
+    transform: rotate(3deg);
+  }
+  to {
+    transform: rotate(-3deg);
+  }
+}
+
+.barramain {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  background-color: #0d2033;
+  li :hover {
+    background-color: #0d2033;
+    color: yellow;
+  }
+  .barranav {
+    background-color: black;
+    display: inline-block;
+    color: white;
+    padding: 20px 40px;
+    position: center;
+    text-align: center;
+    text-decoration: none;
+  }
+  .logonav {
+    width: 200px;
+  }
+}
+img {
+  width: 350px;
+  padding: 10px 10px 10px 10px;
+}
+.a {
+  text-decoration: none;
+}
